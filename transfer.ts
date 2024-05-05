@@ -59,7 +59,7 @@ const startTime = new Date().getTime();
 //add instruction to transaction
 transaction.add(sendSolInstruction);
 
-const signature = await sendAndConfirmTransaction(connection, transaction, [senderKeypaiir]);
+const signature = await sendAndConfirmTransaction(connection, transaction, [senderKeypaiir]); //connection, tranasction, payer
 
 // get time of the Transaction-end
 const endTime = new Date().getTime();
