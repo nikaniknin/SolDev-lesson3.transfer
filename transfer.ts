@@ -76,7 +76,7 @@ console.log(`Transaction signature is ${signature}!`);
 //console.log(`💰 Balance after transaction for Receiver ${toPubkey} is ${receiverBalanceiBeforeSOL}!`);
 
 
-//Instructuins:
+//Instructions:
 //npm init -y
 //npm install
 //npm install @solana/web3.js
